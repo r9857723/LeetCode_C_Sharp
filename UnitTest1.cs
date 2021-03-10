@@ -12,5 +12,11 @@ namespace LeetCode_C_Sharp
             TwoSum twoSum1 = new TwoSum(new int[] { 2, 7, 11, 15 }, 9);
             twoSum1.Do();
         }
+        [TestMethod]
+        public void AddTwoNumbers()
+        {
+            AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
+            addTwoNumbers.Do();
+        }
     }
 }
