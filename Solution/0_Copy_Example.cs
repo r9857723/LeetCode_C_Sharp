@@ -12,13 +12,19 @@ namespace LeetCode_C_Sharp
 {
     public class Example: Solution 
     {
-        public Example(int[] nums, int target) {
+        
+        public Example() {
+
+        }
+
+        private void Solution()
+        {
+
         }
 
         public override void Do()
         {
-
-
+            Solution();
         }
     }
 }
