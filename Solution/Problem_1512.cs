@@ -29,10 +29,10 @@ Output: 0
 
 namespace LeetCode_C_Sharp
 {
-    public class NumberOfGoodPairs: Solution 
+    public class Problem_1512: Solution 
     {
         private readonly int[] nums;
-        public NumberOfGoodPairs(int[] nums) {
+        public Problem_1512(int[] nums) {
             this.nums = nums;
         }
 

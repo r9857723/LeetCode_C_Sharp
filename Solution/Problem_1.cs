@@ -22,11 +22,11 @@ Output: [0,1]
 
 namespace LeetCode_C_Sharp
 {
-    public class TwoSum: Solution 
+    public class Problem_1: Solution 
     {
         private readonly int[] nums;
         private readonly int target;
-        public TwoSum(int[] nums, int target) {
+        public Problem_1(int[] nums, int target) {
             this.nums = nums;
             this.target = target;
         }

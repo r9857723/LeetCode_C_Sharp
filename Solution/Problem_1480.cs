@@ -30,10 +30,10 @@ Output: [3,4,6,16,17]
 
 namespace LeetCode_C_Sharp
 {
-    public class RunningSumOf1dArray : Solution
+    public class Problem_1480 : Solution
     {
         private readonly int[] nums;
-        public RunningSumOf1dArray(int[] nums) {
+        public Problem_1480(int[] nums) {
             this.nums = nums;
         }
 
