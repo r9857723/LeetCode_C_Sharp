@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Collections.Generic;
 
 
 /*
@@ -23,8 +24,8 @@ namespace LeetCode_C_Sharp
 {
     public class TwoSum: Solution 
     {
-        private int[] nums;
-        private int target;
+        private readonly int[] nums;
+        private readonly int target;
         public TwoSum(int[] nums, int target) {
             this.nums = nums;
             this.target = target;
@@ -32,21 +33,16 @@ namespace LeetCode_C_Sharp
 
         private int[] TwoSumSolution(int[] nums, int target)
         {
-            int[] ans = { 0, 0 };
-            foreach(int num in nums)
+            for (var i = 0; i < nums.Length; i++)
             {
-                foreach(int n in nums)
+                var diff = target - nums[i];
+                var index = Array.IndexOf(nums, diff);
+                if (index != -1)
                 {
-                    if (num + n == target)
-                    {
-                        Console.WriteLine($"{num} + {n} = {target}");
-                        ans[0] = num;
-                        ans[1] = n;
-                        return ans;
-                    }
+                    return new int[] { i, index };
                 }
             }
-            throw new ArgumentException();
+            return null;
         }
         public override void Do()
         {
