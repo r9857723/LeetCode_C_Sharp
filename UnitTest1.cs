@@ -17,6 +17,16 @@ namespace LeetCode_C_Sharp
         }
 
         /// <summary>
+        /// 1342. Number of Steps to Reduce a Number to Zero
+        /// </summary>
+        [TestMethod]
+        public void Problem_1342()
+        {
+            Problem_1342 problem_1342 = new Problem_1342(14);
+            problem_1342.Do();
+        }
+
+        /// <summary>
         /// 1512. Number Of Good Pairs
         /// </summary>
         [TestMethod]
@@ -35,6 +45,9 @@ namespace LeetCode_C_Sharp
             problem_1480.Do();
         }
 
+        /// <summary>
+        /// 1784. Check if Binary String Has at Most One Segment of Ones
+        /// </summary>
         [TestMethod]
         public void Problem_1784()
         {
