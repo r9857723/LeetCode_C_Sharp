@@ -17,6 +17,16 @@ namespace LeetCode_C_Sharp
         }
 
         /// <summary>
+        /// 1309. Decrypt String from Alphabet to Integer Mapping
+        /// </summary>
+        [TestMethod]
+        public void Problem_1309()
+        {
+            Problem_1309 problem_1309 = new Problem_1309("12345678910#11#12#13#14#15#16#17#18#19#20#21#22#23#24#25#26#");
+            problem_1309.Do();
+        }
+
+        /// <summary>
         /// 1342. Number of Steps to Reduce a Number to Zero
         /// </summary>
         [TestMethod]

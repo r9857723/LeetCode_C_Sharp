@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Linq;
 
 
 /*
@@ -31,14 +32,12 @@ namespace LeetCode_C_Sharp
 
         private bool Solution(string s)
         {
-            for(var i = 1; i < s.Length; i++)
-            {                
-                if (s[i] == 1 && s[i] == s[i - 1])
-                {
-                    return true;
-                }
+            for (int i = 1; i < s.Length; ++i)
+            {
+                if (s[i - 1] == '0' && s[i] == '1') 
+                    return false;
             }
-            return false;
+            return true;
         }
 
         public override void Do()
