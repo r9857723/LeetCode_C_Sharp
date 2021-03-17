@@ -55,6 +55,16 @@ namespace LeetCode_C_Sharp
         }
         #endregion
 
+        #region 168. Excel Sheet Column Title
+        [TestMethod]
+        public void Problem_168()
+        {
+            Problem_168 problem_168 = new Problem_168(2147483647);
+            problem_168.Do();
+            Assert.IsTrue(true);
+        }
+        #endregion
+
         #region 171. Excel Sheet Column Number
         [TestMethod]
         public void Problem_171()

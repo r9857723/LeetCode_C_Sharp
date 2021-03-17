@@ -54,9 +54,10 @@ namespace LeetCode_C_Sharp
 
             for (var i = 0; i < columnTitle.Length; i++)
             {
-                rtn += (Convert.ToInt32(columnTitle[i]) - 64) * Convert.ToInt32(Math.Pow(26, columnTitle.Length - i - 1));
+                var str = columnTitle[i];
+                var math = Convert.ToInt32(Math.Pow(26, columnTitle.Length - i -1));
+                rtn += (Convert.ToInt32(str) - 64) * math;
             }
-
 
             return rtn;
         }
