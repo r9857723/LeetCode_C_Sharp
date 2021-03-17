@@ -18,26 +18,6 @@ namespace LeetCode_C_Sharp
         }
         #endregion
 
-        #region 92. Reverse Linked List II
-        [TestMethod]
-        public void Problem_92()
-        {
-            ListNode ln1 = new ListNode(1);
-            ListNode ln2 = new ListNode(2);
-            ListNode ln3 = new ListNode(3);
-            ListNode ln4 = new ListNode(4);
-            ListNode ln5 = new ListNode(5);
-            ln1.next = ln2;
-            ln2.next = ln3;
-            ln3.next = ln4;
-            ln4.next = ln5;
-            ln5.next = null;
-
-            Problem_92 problem_92 = new Problem_92(ln1, 2, 4);
-            problem_92.Do();
-        }
-        #endregion
-
         #region 206. Reverse Linked List
         [TestMethod]
         public void Problem_206()
