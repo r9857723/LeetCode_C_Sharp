@@ -31,7 +31,7 @@ namespace LeetCode_C_Sharp
             this.target = target;
         }
 
-        private int[] TwoSumSolution(int[] nums, int target)
+        private int[] TwoSum(int[] nums, int target)
         {
             for (var i = 0; i < nums.Length; i++)
             {
@@ -46,7 +46,7 @@ namespace LeetCode_C_Sharp
         }
         public override void Do()
         {
-            TwoSumSolution(this.nums, this.target);
+            TwoSum(this.nums, this.target);
         }
     }
 }

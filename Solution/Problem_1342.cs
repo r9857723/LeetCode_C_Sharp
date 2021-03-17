@@ -18,7 +18,7 @@ namespace LeetCode_C_Sharp
             this.num = num;
         }
 
-        private int Solution(int num)
+        private int NumberOfSteps(int num)
         {
             int count = 0;
             while (num != 0)
@@ -31,7 +31,7 @@ namespace LeetCode_C_Sharp
 
         public override void Do()
         {
-            Solution(this.num);
+            NumberOfSteps(this.num);
         }
     }
 }

@@ -45,7 +45,7 @@ namespace LeetCode_C_Sharp
             this.s = s;
         }
 
-        private string Solution(string s)
+        private string FreqAlphabets(string s)
         {
             var sb = new StringBuilder();
             for(var i = 0; i < s.Length; i++)
@@ -65,7 +65,7 @@ namespace LeetCode_C_Sharp
 
         public override void Do()
         {
-            Solution(this.s);
+            FreqAlphabets(this.s);
         }
     }
 }

@@ -36,7 +36,7 @@ namespace LeetCode_C_Sharp
             this.nums = nums;
         }
 
-        private int NumIdenticalPairsSolution(int[] nums)
+        private int NumIdenticalPairs(int[] nums)
         {
             int count = 0;
 
@@ -55,7 +55,7 @@ namespace LeetCode_C_Sharp
 
         public override void Do()
         {
-            NumIdenticalPairsSolution(this.nums);
+            NumIdenticalPairs(this.nums);
 
         }
     }

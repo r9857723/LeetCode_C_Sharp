@@ -30,7 +30,7 @@ namespace LeetCode_C_Sharp
             this.s = s;
         }
 
-        private bool Solution(string s)
+        private bool CheckOnesSegment(string s)
         {
             for (int i = 1; i < s.Length; ++i)
             {
@@ -42,7 +42,7 @@ namespace LeetCode_C_Sharp
 
         public override void Do()
         {
-            Solution(this.s);
+            CheckOnesSegment(this.s);
         }
     }
 }

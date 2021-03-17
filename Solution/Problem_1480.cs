@@ -37,7 +37,7 @@ namespace LeetCode_C_Sharp
             this.nums = nums;
         }
 
-        private int[] RunningSumOf1dArraySolution(int[] nums)
+        private int[] RunningSum(int[] nums)
         {
             for(var i = 1;i < nums.Length; i++)
             {
@@ -48,7 +48,7 @@ namespace LeetCode_C_Sharp
 
         public override void Do()
         {
-            RunningSumOf1dArraySolution(this.nums);
+            RunningSum(this.nums);
         }
     }
 }
