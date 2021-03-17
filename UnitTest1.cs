@@ -10,6 +10,7 @@ namespace LeetCode_C_Sharp
         [TestMethod]
         public void Problem_Example()
         {
+            Assert.IsTrue(true);
         }
         #endregion
 
@@ -19,6 +20,7 @@ namespace LeetCode_C_Sharp
         {
             Problem_1 problem_1 = new Problem_1(new int[] { 2, 7, 11, 15 }, 9);
             problem_1.Do();
+            Assert.IsTrue(true);
         }
         #endregion
 
@@ -28,6 +30,7 @@ namespace LeetCode_C_Sharp
         {
             Problem_34 problem_34 = new Problem_34(new int[] { 1 }, 1);
             problem_34.Do();
+            Assert.IsTrue(true);
         }
         #endregion
 
@@ -48,6 +51,17 @@ namespace LeetCode_C_Sharp
 
             Problem_206 problem_206 = new Problem_206(ln1);
             problem_206.Do();
+            Assert.IsTrue(true);
+        }
+        #endregion
+
+        #region 171. Excel Sheet Column Number
+        [TestMethod]
+        public void Problem_171()
+        {
+            Problem_171 problem_171 = new Problem_171("FXSHRXW");
+            problem_171.Do();
+            Assert.IsTrue(true);
         }
         #endregion
 
@@ -57,6 +71,7 @@ namespace LeetCode_C_Sharp
         {
             Problem_1309 problem_1309 = new Problem_1309("12345678910#11#12#13#14#15#16#17#18#19#20#21#22#23#24#25#26#");
             problem_1309.Do();
+            Assert.IsTrue(true);
         }
         #endregion
 
@@ -66,6 +81,7 @@ namespace LeetCode_C_Sharp
         {
             Problem_1342 problem_1342 = new Problem_1342(14);
             problem_1342.Do();
+            Assert.IsTrue(true);
         }
         #endregion
 
@@ -75,6 +91,7 @@ namespace LeetCode_C_Sharp
         {
             Problem_1512 problem_1512 = new Problem_1512(new int[] { 1, 2, 3, 1, 1, 3 });
             problem_1512.Do();
+            Assert.IsTrue(true);
         }
         #endregion
 
@@ -83,6 +100,7 @@ namespace LeetCode_C_Sharp
         public void Problem_1480() {
             Problem_1480 problem_1480 = new Problem_1480(new int[] { 3, 1, 2, 10, 1 });
             problem_1480.Do();
+            Assert.IsTrue(true);
         }
         #endregion
 
@@ -92,6 +110,7 @@ namespace LeetCode_C_Sharp
         {
             Problem_1784 problem_1784 = new Problem_1784("1001");
             problem_1784.Do();
+            Assert.IsTrue(true);
         }
         #endregion
     }
