@@ -75,6 +75,15 @@ namespace LeetCode_C_Sharp
         }
         #endregion
 
+        #region
+        [TestMethod]
+        public void Problem_608()
+        {
+            Problem_680 problem_680 = new Problem_680("abc");
+            problem_680.Do();
+            Assert.IsTrue(true);
+        }
+        #endregion
         #region 1309. Decrypt String from Alphabet to Integer Mapping
         [TestMethod]
         public void Problem_1309()
