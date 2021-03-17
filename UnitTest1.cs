@@ -7,6 +7,10 @@ namespace LeetCode_C_Sharp
     public class UnitTest1
     {
         #region
+        [TestMethod]
+        public void Problem_Example()
+        {
+        }
         #endregion
 
         #region 1. Two Sum
@@ -15,6 +19,15 @@ namespace LeetCode_C_Sharp
         {
             Problem_1 problem_1 = new Problem_1(new int[] { 2, 7, 11, 15 }, 9);
             problem_1.Do();
+        }
+        #endregion
+
+        #region 34. Find First and Last Position of Element in Sorted Array
+        [TestMethod]
+        public void Problem_34()
+        {
+            Problem_34 problem_34 = new Problem_34(new int[] { 1 }, 1);
+            problem_34.Do();
         }
         #endregion
 

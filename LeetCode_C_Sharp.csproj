@@ -50,7 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Solution.cs" />
-    <Compile Include="Solution\Problem_92.cs" />
+    <Compile Include="Solution\Problem_34.cs" />
     <Compile Include="Solution\0_Copy_Example.cs" />
     <Compile Include="Solution\Problem_206.cs" />
     <Compile Include="Solution\Problem_1309.cs" />
