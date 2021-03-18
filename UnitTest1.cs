@@ -75,7 +75,17 @@ namespace LeetCode_C_Sharp
         }
         #endregion
 
-        #region
+        #region 434. Number of Segments in a String
+        [TestMethod]
+        public void Problem_434()
+        {
+            Problem_434 problem_434 = new Problem_434("Of all the gin joints in all the towns in all the world,   ");
+            problem_434.Do();
+            Assert.IsTrue(true);
+        }
+        #endregion
+
+        #region 680. Valid Palindrome II
         [TestMethod]
         public void Problem_608()
         {
@@ -83,7 +93,8 @@ namespace LeetCode_C_Sharp
             problem_680.Do();
             Assert.IsTrue(true);
         }
-        #endregion
+        #endregion 
+
         #region 1309. Decrypt String from Alphabet to Integer Mapping
         [TestMethod]
         public void Problem_1309()
