@@ -6,6 +6,7 @@ namespace LeetCode_C_Sharp
     [TestClass]
     public class UnitTest1
     {
+
         #region
         [TestMethod]
         public void Problem_Example()
@@ -34,6 +35,36 @@ namespace LeetCode_C_Sharp
         }
         #endregion
 
+        #region 151. Reverse Words in a String
+        [TestMethod]
+        public void Problem_151()
+        {
+            Problem_151 problem_151 = new Problem_151("  Bob    Loves  Alice   ");
+            problem_151.Do();
+            Assert.IsTrue(true);
+        }
+        #endregion
+
+        #region 168. Excel Sheet Column Title
+        [TestMethod]
+        public void Problem_168()
+        {
+            Problem_168 problem_168 = new Problem_168(2147483647);
+            problem_168.Do();
+            Assert.IsTrue(true);
+        }
+        #endregion
+
+        #region 171. Excel Sheet Column Number
+        [TestMethod]
+        public void Problem_171()
+        {
+            Problem_171 problem_171 = new Problem_171("FXSHRXW");
+            problem_171.Do();
+            Assert.IsTrue(true);
+        }
+        #endregion
+
         #region 206. Reverse Linked List
         [TestMethod]
         public void Problem_206()
@@ -55,22 +86,12 @@ namespace LeetCode_C_Sharp
         }
         #endregion
 
-        #region 168. Excel Sheet Column Title
+        #region 217. Contains Duplicate
         [TestMethod]
-        public void Problem_168()
+        public void Problem_217()
         {
-            Problem_168 problem_168 = new Problem_168(2147483647);
-            problem_168.Do();
-            Assert.IsTrue(true);
-        }
-        #endregion
-
-        #region 171. Excel Sheet Column Number
-        [TestMethod]
-        public void Problem_171()
-        {
-            Problem_171 problem_171 = new Problem_171("FXSHRXW");
-            problem_171.Do();
+            Problem_217 problem_217 = new Problem_217(new int[] { 1, 1, 1, 3, 3, 4, 3, 2, 4, 2 });
+            problem_217.Do();
             Assert.IsTrue(true);
         }
         #endregion
