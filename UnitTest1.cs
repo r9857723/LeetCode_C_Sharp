@@ -96,6 +96,16 @@ namespace LeetCode_C_Sharp
         }
         #endregion
 
+        #region 219. Contains Duplicate II
+        [TestMethod]
+        public void Problem_219()
+        {
+            Problem_219 problem_219 = new Problem_219(new int[] { 1, 2, 3, 1 }, 3);
+            problem_219.Do();
+            Assert.IsTrue(true);
+        }
+        #endregion
+
         #region 434. Number of Segments in a String
         [TestMethod]
         public void Problem_434()
