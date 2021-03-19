@@ -42,9 +42,9 @@ namespace LeetCode_C_Sharp
 
         private bool ContainsNearbyAlmostDuplicate(int[] nums, int k, int t)
         {
-            for (var i = 0; i < nums.Length; i++)  // 3
+            for (var i = 0; i < nums.Length; i++)  
             {
-                int start = i;//3
+                int start = i;
                 int end = (i + k > nums.Length - 1) ? nums.Length - 1 : i + k;
                 for(var j = start; j <= end; j++)
                 {

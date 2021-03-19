@@ -177,6 +177,16 @@ namespace LeetCode_C_Sharp
         }
         #endregion
 
+        #region
+        [TestMethod]
+        public void Problem_1689()
+        {
+            Problem_1689 problem_1689 = new Problem_1689("32");
+            problem_1689.Do();
+            Assert.IsTrue(true);
+        }
+        #endregion
+
         #region 1784. Check if Binary String Has at Most One Segment of Ones
         [TestMethod]
         public void Problem_1784()
