@@ -129,6 +129,16 @@ namespace LeetCode_C_Sharp
         }
         #endregion
 
+        #region 349. Intersection of Two Arrays
+        [TestMethod]
+        public void Problem_349()
+        {
+            Problem_349 problem_349 = new Problem_349(new int[] { 9, 4, 9, 8, 4 }, new int[] { 4, 9, 5 });
+            problem_349.Do();
+            Assert.IsTrue(true);
+        }
+        #endregion
+
         #region 434. Number of Segments in a String
         [TestMethod]
         public void Problem_434()
