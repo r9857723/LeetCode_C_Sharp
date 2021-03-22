@@ -35,6 +35,17 @@ namespace LeetCode_C_Sharp
         }
         #endregion
 
+        #region 66. Plus One
+        [TestMethod]
+        public void Problem_66()
+        {
+            //Problem_66 problem_66 = new Problem_66(new int[] { 7, 2, 8, 5, 0, 9, 1, 2, 9, 5, 3, 6, 6, 7, 3, 2, 8, 4, 3, 7, 9, 5, 7, 7, 4, 7, 4, 9, 4, 7, 0, 1, 1, 1, 7, 4, 0, 0, 6 });
+            Problem_66 problem_66 = new Problem_66(new int[] { 9 });
+            problem_66.Do();
+            Assert.IsTrue(true);
+        }
+        #endregion
+
         #region 151. Reverse Words in a String
         [TestMethod]
         public void Problem_151()
@@ -138,8 +149,8 @@ namespace LeetCode_C_Sharp
         }
         #endregion 
 
-        #region
-        [TestMethod]
+        #region 1154. Day of the Year
+        [TestMethod] 
         public void Problem_1154()
         {
             Problem_1154 problem_1154 = new Problem_1154("2019-01-09");
