@@ -138,6 +138,16 @@ namespace LeetCode_C_Sharp
         }
         #endregion 
 
+        #region
+        [TestMethod]
+        public void Problem_1154()
+        {
+            Problem_1154 problem_1154 = new Problem_1154("2019-01-09");
+            problem_1154.Do();
+            Assert.IsTrue(true);
+        }
+        #endregion
+
         #region 1309. Decrypt String from Alphabet to Integer Mapping
         [TestMethod]
         public void Problem_1309()
@@ -177,7 +187,7 @@ namespace LeetCode_C_Sharp
         }
         #endregion
 
-        #region
+        #region 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers
         [TestMethod]
         public void Problem_1689()
         {
@@ -185,7 +195,7 @@ namespace LeetCode_C_Sharp
             problem_1689.Do();
             Assert.IsTrue(true);
         }
-        #endregion
+        #endregion 
 
         #region 1784. Check if Binary String Has at Most One Segment of Ones
         [TestMethod]
